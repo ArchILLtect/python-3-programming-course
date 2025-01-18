@@ -1,0 +1,7 @@
+in_file = open('C:/Users/nickh/Documents/mydata2.txt', 'r+')
+print (in_file.readline())
+in_file.seek(0)
+in_file.write('Hi!')
+in_file.seek(0)
+print (in_file.readline())
+in_file.close()
